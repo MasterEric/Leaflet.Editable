@@ -52,7 +52,7 @@
 
 ## 0.5.0
 - added editable:vertex:drag event
-- added editable:vertex:dragstart event
+- added editable:vertex:dragstart eventt
 - added editable:vertex:dragend event
 
 ## 0.4.0
