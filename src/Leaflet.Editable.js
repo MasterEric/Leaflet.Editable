@@ -820,6 +820,8 @@
         fireAndForward: function (type, e) {
             e = e || {};
             e.layer = this.feature;
+            // ERIC: Fix deprecation issue.
+            e.propagatedFrom = this.feature;
             this.feature.fire(type, e);
             this.tools.fireAndForward(type, e);
         },
